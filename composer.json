@@ -1,0 +1,43 @@
+{
+    "name": "dzielne-misie/review-assist-laravel",
+    "description": "dzielne-misie/review-assist Laravel integration",
+    "authors": [
+        {
+            "name": "Dominik Marczuk",
+            "role": "developer"
+        },
+        {
+            "name": "Maciej Iwanowski",
+            "role": "developer"
+        },
+        {
+            "name": "Piotr Radzymiński",
+            "role": "developer"
+        },
+        {
+            "name": "Sebastian Nowak",
+            "role": "developer"
+        },
+        {
+            "name": "Tomasz Tybulewicz",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "DzielneMisie\\ReviewAssistLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
