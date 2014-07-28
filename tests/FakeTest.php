@@ -18,4 +18,9 @@ class FakeTest extends PHPUnit_Framework_TestCase
     {
         $this->assertSame(1.0, 1);
     }
+    
+    public function testThatIsSeriouslyWrong()
+    {
+        $this->assertSame([], new \stdClass());
+    }
 }
